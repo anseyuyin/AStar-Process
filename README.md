@@ -26,6 +26,21 @@ frist load
 do findPath
 ````javascript
 var astar = new findPath.aStar(); //new aStar object
-var outPath = [];
-astar.findPath(1,1,1,3,outPath); //culaution get path
+var outPath = []; //resulte container Array
+astar.findPath(1,1,1,8,outPath); //culaution get path
+````
+map limit Filter
+````javascript
+//a temp map
+var map = [[1,1,1,1,1,1],
+           [1,0,0,0,0,1],
+           [1,0,0,0,0,1],
+           [1,0,0,0,0,1],
+           [1,0,0,0,0,1],
+           [1,1,1,1,1,1],]
+//set outFilter Filter Function      
+astar.outFilter = (x,y)=>{
+  return map[y][x] == 0;
+}
+astar.findPath(1,1,1,8,outPath); //culaution get path
 ````
