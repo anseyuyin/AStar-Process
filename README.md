@@ -6,6 +6,7 @@ Its purpose is to help you understand the A* algorithm quickly and efficiently.
 Demo:
 https://anseyuyin.github.io/AStar-Process/demo
 
+[![image](./demo/aStar_.gif)](https://anseyuyin.github.io/AStar-Process/demo)
 
 # Features
 
