@@ -5,9 +5,9 @@ Demo:
 https://anseyuyin.github.io/AStar-Process/demo
 
 
-# About The Demo
+# Features
 
-you can watch every step of the calculation process
+* you can watch every step of the calculation process
 
-pause or replay in any timeline
+* pause or replay in any timeline
 
