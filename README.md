@@ -1,10 +1,13 @@
 # AStar-Process
-A* Pathfinding Algorithm process demo
+The is a Algorithm calculation process Demo of A* (A Star)
 
-https://anseyuyin.github.io/AStar-Process/
+Demo:
+https://anseyuyin.github.io/AStar-Process/demo
 
-1.What 
 
-2.Why
+# About The Demo
 
-3.how
+you can watch every step of the calculation process
+
+pause or replay in any timeline
+
