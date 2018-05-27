@@ -27,7 +27,7 @@ do findPath
 ````javascript
 var astar = new findPath.aStar(); //new aStar object
 var outPath = []; //resulte container Array
-astar.findPath(1,1,1,8,outPath); //culaution get path
+astar.findPath(1,1,1,8,outPath); //Calculation get path
 ````
 map limit Filter
 ````javascript
@@ -42,5 +42,6 @@ var map = [[1,1,1,1,1,1],
 astar.outFilter = (x,y)=>{
   return map[y][x] == 0;
 }
-astar.findPath(1,1,1,8,outPath); //culaution get path
+var outPath = []; //resulte container Array
+astar.findPath(1,1,1,8,outPath); //Calculation get path
 ````
