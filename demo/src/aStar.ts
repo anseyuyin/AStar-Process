@@ -30,6 +30,9 @@ class nodePool {
     }
 }
 
+/**
+ * A* pathFind Pathfinding Algorithm
+ */
 export class aStar {
     private openList: node[] = [];
     private closeList: node[] = [];
