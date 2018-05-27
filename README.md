@@ -23,9 +23,9 @@ frist load
 ````html
 <script src="aStar.js"></script>
 ````
-
-````html
-var astar = new findPath.aStar();
+do findPath
+````javascript
+var astar = new findPath.aStar(); //new aStar object
 var outPath = [];
-astar.findPath(1,1,1,3,outPath);
+astar.findPath(1,1,1,3,outPath); //culaution get path
 ````
