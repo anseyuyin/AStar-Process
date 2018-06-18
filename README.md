@@ -6,6 +6,7 @@ Its purpose is to help you understand the A* algorithm quickly and efficiently.
 Demo:
 https://anseyuyin.github.io/AStar-Process/demo
 
+[![image](./demo/aStar_.gif)](https://anseyuyin.github.io/AStar-Process/demo)
 
 # Features
 
@@ -41,7 +42,7 @@ do findPath
 ````javascript
 var astar = new findPath.aStar(); //new aStar object
 var outPath = []; //resulte container Array
-astar.findPath(1,1,1,8,outPath); //Calculation get path
+astar.findPath(1,1,1,8,outPath);//Calculation get path
 ````
 map limit Filter
 ````javascript
@@ -57,5 +58,5 @@ astar.outFilter = (x,y)=>{
   return map[y][x] == 0;
 }
 var outPath = []; //resulte container Array
-astar.findPath(1,1,1,8,outPath); //Calculation get path
+astar.findPath(1,1,1,8,outPath);//Calculation get path
 ````
