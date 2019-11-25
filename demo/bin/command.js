@@ -1,5 +1,6 @@
 System.register([], function (exports_1, context_1) {
     "use strict";
+    var stateData, rectSetCommand, batchCommand, commandMgr;
     var __moduleName = context_1 && context_1.id;
     function setState(ehtml, color, g, h) {
         if (g === void 0) { g = -1; }
@@ -17,7 +18,6 @@ System.register([], function (exports_1, context_1) {
         commandMgr.Instance.execute(batc);
     }
     exports_1("batState", batState);
-    var stateData, rectSetCommand, batchCommand, commandMgr;
     return {
         setters: [],
         execute: function () {

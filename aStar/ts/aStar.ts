@@ -128,7 +128,7 @@ namespace findPath{
                 let point = this.cupPoints[i];
                 if (this.filterNeighbor(point.x, point.y)) {
                     let H = this.calcH(point.x, point.y, this.endx, this.endy);
-                    this.openList.push(nodePool.new_node(point.x, point.y, n.Gcost + 1, H, n));
+                    this.openList.unshift(nodePool.new_node(point.x, point.y, n.Gcost + 1, H, n));
                 }
             }
         }

@@ -198,12 +198,12 @@ export class main {
         let subfont = document.createElement(`font`);
         subfont.style.position = "absolute";
         subfont.style.color = testColor;
-        subfont.size = 0.3;
+        subfont.size = "0.3";
         subfont.textContent = "-1";
         subfont.style.display = "none";
         subfont.className = className;
         switch (type) {
-            case 0: subfont.style.right = `50%`; subfont.style.top = `0px`; subfont.size = 0.5; break;
+            case 0: subfont.style.right = `50%`; subfont.style.top = `0px`; subfont.size = "0.5"; break;
             case 1: subfont.style.left = `0px`; subfont.style.bottom = `0px`; break;
             case 2: subfont.style.right = `0px`; subfont.style.bottom = `0px`; break;
         }

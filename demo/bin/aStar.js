@@ -1,7 +1,7 @@
 System.register([], function (exports_1, context_1) {
     "use strict";
-    var __moduleName = context_1 && context_1.id;
     var node, nodePool, aStar;
+    var __moduleName = context_1 && context_1.id;
     return {
         setters: [],
         execute: function () {
@@ -136,7 +136,7 @@ System.register([], function (exports_1, context_1) {
                         var point = this.cupPoints[i];
                         if (this.filterNeighbor(point.x, point.y)) {
                             var H = this.calcH(point.x, point.y, this.endx, this.endy);
-                            this.openList.push(nodePool.new_node(point.x, point.y, n.Gcost + 1, H, n));
+                            this.openList.unshift(nodePool.new_node(point.x, point.y, n.Gcost + 1, H, n));
                             bat.push({ x: point.x, y: point.y, g: n.Gcost + 1, h: H, colorNum: 1 });
                         }
                     }

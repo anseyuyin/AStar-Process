@@ -12,10 +12,10 @@ export declare class aStar {
         colorNum: number;
     }[]) => void;
     findPath(start_x: number, start_y: number, end_x: number, end_y: number, outPath: number[]): boolean;
-    private calcH(now_x, now_y, end_x, end_y);
+    private calcH;
     private cupPoints;
-    private findAddNeighbor(n);
-    outFilter: (x, y) => boolean;
-    private filterNeighbor(x, y);
-    private listHas(ns, x, y);
+    private findAddNeighbor;
+    outFilter: (x: any, y: any) => boolean;
+    private filterNeighbor;
+    private listHas;
 }

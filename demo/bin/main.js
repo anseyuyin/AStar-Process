@@ -1,7 +1,7 @@
 System.register(["./aStar.js", "./command.js"], function (exports_1, context_1) {
     "use strict";
-    var __moduleName = context_1 && context_1.id;
     var aStar_js_1, command_js_1, map_temp, main;
+    var __moduleName = context_1 && context_1.id;
     return {
         setters: [
             function (aStar_js_1_1) {
@@ -191,7 +191,7 @@ System.register(["./aStar.js", "./command.js"], function (exports_1, context_1) 
                     var subfont = document.createElement("font");
                     subfont.style.position = "absolute";
                     subfont.style.color = testColor;
-                    subfont.size = 0.3;
+                    subfont.size = "0.3";
                     subfont.textContent = "-1";
                     subfont.style.display = "none";
                     subfont.className = className;
@@ -199,7 +199,7 @@ System.register(["./aStar.js", "./command.js"], function (exports_1, context_1) 
                         case 0:
                             subfont.style.right = "50%";
                             subfont.style.top = "0px";
-                            subfont.size = 0.5;
+                            subfont.size = "0.5";
                             break;
                         case 1:
                             subfont.style.left = "0px";
