@@ -75,7 +75,7 @@ export class aStar {
                     endNode = n;
                     break;
                 }
-                if (!minFnode || n.F < minFnode.F) {
+                if (!minFnode || n.F < minFnode.F || (minFnode.F == n.F && n.Gcost < minFnode.Gcost)) {
                     minFnode = n;
                     minIdx = i;
                 }
